@@ -1,0 +1,149 @@
+html {
+  height: 100%;
+}
+
+
+
+.form_send{
+  position: relative;
+  width: 632px;
+  top: 35px;
+  left: 10.34%;
+ 
+
+  color: #EFEFEF;
+}
+
+.box_send{
+  position: relative;
+  left:23.26%;
+  
+  background: rgb(255,255,255,0.5);
+  border-radius: 6px;
+  height: 54px;
+  width: 514px;
+}
+
+.img_send{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  left:50.71%;
+}
+
+.imgAuthor_send{
+  position: relative;
+  left: -12px;
+  width: 52px;
+  height: 52px;
+  
+}
+
+#forma {
+
+  height:550px; 
+  overflow-y:scroll; 
+  overflow-x:hidden;
+
+}
+
+.list-messages{
+  margin: 20px;
+    
+}
+
+.imgMsg_List{
+  position: relative;
+  top:35px;
+  height:34px;
+  width:34px;
+}
+
+.btn_parrot{
+  top: 30px;
+  position: relative;
+  left: 300px;
+  width: 28px;
+  height: 20px;
+}
+
+.textAuthor_List{
+  position: relative;
+  left: 7.47%;
+  top: 3%;
+  bottom: 5.9%;
+
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 15px;
+  font-size: 15px;
+
+  color: #494949;
+  
+}
+
+.textMsg_List{
+  position: relative;
+  left: 7.47%;
+  top: 32.33%;
+  bottom: 5.9%;
+
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21px;
+  font-size: 14px;
+  
+  color: #494949;
+}
+
+
+.wrapper {
+  display: flex;
+  min-height: 100%;
+}
+
+.content {
+  flex: 1;
+}
+
+.sidebar {
+  width: 80px;
+  background-color: #25272E;
+}
+
+.sidebar__logo::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  display: block;
+  background-color: #1D2028;
+  border-bottom: 1px solid #31343C;
+}
+
+.header {
+  height: 82px;
+  border-bottom: 1px solid #EEEEEE;
+  padding: 16px 22px;
+  color: #626262;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__title {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 36px;
+}
+
+.header__parrots-count {
+  display: flex;
+}
+
+.header__parrots-count::before {
+  content: url('images/light-parrot.svg');
+  align-self: center;
+  margin-right: 10px;
+}
